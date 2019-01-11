@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,body{ height:100%;}
+body{
+    margin:0px;
+    padding:0px;
+    font-size:14px;
+    font-family:Microsoft YaHei;
+    color:#333;
+    text-align:center;
+    background:#FAFAFA;
+}
+dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,input,textarea,p,th,td{ margin:0px; padding:0px; list-style:none;}
+a:link img,a:visited img,a:hover img{ border:none;}
+a{ color:#333; text-decoration:none;}
+a:hover{ text-decoration:none;}
+.center{ width:1200px; margin:0 auto; text-align:left;}
+.clear{ clear:both;}
+.fl{ float:left;}
+.fr{ float:right;}
+.hide{ display:none;}
+.hidden{ visibility:hidden;}
+
+/* sprite */
+.input-text1,.select,.filter .btn-clear{ background:url(../images/sprite.png) no-repeat;}
+
+/* container */
+.container{ min-height:100%; min-width:1200px;}
+
+/* sidebar */
+.sidebar{ position:absolute; left:0; width:200px;}
+.sidebar h2{ margin:32px 6px 0 10px; padding-left:15px; font-size:14px;}
+.sidebar h2 .toggle{ float:right; display:block; width:20px; height:20px; background:url(../images/spread.png) center center no-repeat; margin-right:10px; cursor:pointer;}
+.sidebar h2 .toggle.shrink{ background-image:url(../images/shrink.png);}
+.left_nav{ margin:12px 6px 0 10px; overflow:auto;}
+.left_nav a:hover{ text-decoration:none;}
+.left_nav .item_name{ display:block; height:40px; line-height:40px; font-weight:bold; color:#777; background:url(../images/arrow1.png) 160px center no-repeat;}
+.left_nav .item_name.on1{ color:#4C8CED; background:url(../images/arrow3.png) 160px center no-repeat;}
+.left_nav .item_name.nosub.on1{ background:#eee; position:relative;}
+.left_nav .item_name.nosub.on1 i{ position:absolute; left:0; top:0; width:4px; height:48px; background:#4C8DEE;}
+.left_nav .item_name.nosub{ background:none;}
+.left_nav .item_name b{ display:inline-block; width:24px; height:24px; float:left; margin:8px 18px 0 18px;}
+.left_nav .item_name b.ico1{ background:url(../images/leftNav_ico1.png) no-repeat;}
+.left_nav .item_name b.ico2{ background:url(../images/leftNav_ico2.png) no-repeat;}
+.left_nav .item_name b.ico3{ background:url(../images/leftNav_ico3.png) no-repeat;}
+.left_nav .item_name b.ico4{ background:url(../images/leftNav_ico4.png) no-repeat;}
+.left_nav .item_name.on1 b.ico1{ background:url(../images/leftNav_ico1_on.png) no-repeat;}
+.left_nav .item_name.on1 b.ico2{ background:url(../images/leftNav_ico2_on.png) no-repeat;}
+.left_nav .item_name.on1 b.ico3{ background:url(../images/leftNav_ico3_on.png) no-repeat;}
+.left_nav .item_name.on1 b.ico4{ background:url(../images/leftNav_ico4_on.png) no-repeat;}
+.left_nav .item_name2{ display:block; height:36px; line-height:36px; padding-left:60px; margin-bottom:4px; color:#777; background:url(../images/arrow1.png) 160px center no-repeat;}
+.left_nav .item_name2.on2{ color:#000; background:#eee url(../images/arrow2.png) 160px center no-repeat;}
+.left_nav .item_name2.nosub2{ background:none;}
+.left_nav .item_name2.nosub2.on2{ background:#eee; position:relative;}
+.left_nav .item_name2.nosub2.on2 i{ position:absolute; left:0; top:0; width:4px; height:36px; background:#4C8DEE;}
+.left_nav .sub_item2 li{ height:36px; line-height:36px; margin-bottom:2px;}
+.left_nav .sub_item2 li a{ display:block; padding-left:72px; color:#777;}
+.left_nav .sub_item2 li a.on3{ color:#fff; background:#4C8DEE; position:relative;}
+.left_nav .sub_item2 li a.on3 i{ position:absolute; left:1px; top:1px; width:4px; height:34px; background:#fff;}
+
+.header{ min-width:1200px; height:54px; background:#fff; border-bottom:1px solid #eee;}
+.header .logo{ float:left; margin:13px 0 0 20px;}
+.header .txt{ float:right; margin:18px 28px 0 0;}
+.header .txt a{ color:#4C8DEE; text-decoration:underline; margin-left:10px;}
+
+/* col_main */
+.col_main{ margin-left:200px;}
+.blankbox{ height:96px;}
+.tab_wrap{ margin:18px 25px 15px 5px; padding:0 20px 20px; background:#fff; border:1px solid #eee;}
+.tab_wrap .tab_title{ height:50px; border-bottom:1px solid #DFDFDF; padding:0 10px;}
+.tab_wrap .tab_title li{ float:left; width:140px; height:40px; line-height:40px; text-align:center; color:#666; margin:8px 20px 0 0; cursor:default;}
+.tab_wrap .tab_title li.on{ font-weight:bold; color:#4C8DEE; border-bottom:3px solid #4C8DEE;}
+.tab_wrap .tab_title li.del{ position:relative;}
+.tab_wrap .tab_title li.del .ico_del{ position:absolute; right:2px; top:10px; width:20px; height:20px; background:url(../images/tab_close.png) center center no-repeat; cursor:pointer;}
+.tab_wrap .tab_title li.del .ico_del:hover{ background:url(../images/tab_close_hover.png) center center no-repeat;}
+
+
+/* footer */
+.footer_fixed{ height:34px;}
+.footer{ position:absolute; left:0; right:0; margin-top:-34px; min-width:1200px; height:33px; line-height:33px; text-align:center; background:#fff; border-top:1px solid #eee;}
+.footer span{ margin-left:45px;}
+.footer span b{ font-weight:normal; color:#4C8CEB;}
+
+/* 弹窗 */
+.pop_wrap .ico_result{ width:100px; height:100px; margin:40px auto 8px;}
+.pop_wrap .ico_result.success{ background:url(../images/success.png) no-repeat;}
+.pop_wrap .ico_result.fail{ background:url(../images/fail.png) no-repeat;}
+.pop_wrap .txt_tips{ font-weight:bold; color:#333945; text-align:center; margin-bottom:36px;}
+.pop_wrap .btn_row{ text-align:center;}
+.pop_wrap .btn_row button{ width:200px; height:36px; background:#4C8DEE; color:#fff; border:none; outline:none; font-family:Microsoft YaHei; font-size:14px;}
+.pop_wrap .btn_row button:hover{ background:#3981EC;}
+.pop_wrap .btn_row button:active{ background:#186BE9;}
+.pop_wrap .fail_reason{ width:300px; line-height:1.5; color:#969696; margin:0 auto;}
+
+/* 文字列表超出隐藏再加上... */
+.item-list li a{ /* 给a加样式，这样...也在a标签里 */
+    display:inline-block;
+    width:200px;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;/* IE/Safari */
+    -ms-text-overflow:ellipsis;
+    -o-text-overflow:ellipsis;/* Opera */
+    -moz-binding:url("ellipsis.xml#ellipsis");/* FireFox */
+}
+
+::-webkit-scrollbar{width:7px;height:7px;}
+::-webkit-scrollbar-track{background:#ddd;border-radius:5px;}
+::-webkit-scrollbar-thumb{background:rgba(153,153,153,0.5);border-radius:5px;}
+::-webkit-scrollbar-thumb:hover{ background:rgba(102,102,102,0.6);}
+::-webkit-scrollbar-thumb:active{ background:rgba(102,102,102,0.6);}

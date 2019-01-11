@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+/*新增商户信息.fw*/
+.business_info .info_input{margin-bottom:70px;}
+.business_info .info_title{font-weight:bold;}
+.business_info .input_list{margin-top:20px;}
+.business_info .input_list span{display:inline-block; height:28px; line-height:28px;}
+.business_info .input_list .span1{width:120px; text-align:right;}
+.business_info .input_list .span2{width:240px;}
+.business_info .input_list .span_select{position:relative;}
+.business_info .input_list .span_select:after{content:"";position:absolute;right:-2px;top:1px;width:29px;height:28px;background:url(../images/icon_sel.png) no-repeat; pointer-events:none;}
+.business_info .input_list .span2 input{font-size:14px; width:230px; height:30px; line-height:30px; padding-left:10px; border:1px solid #DFDFDF; outline:none;}
+.business_info .input_list .span2 select{font-size:14px; width:243px; height:30px; line-height:30px; padding-left:6px; border:1px solid #DFDFDF; outline:none;}
+.business_info .input_list .span3{width:22px;}
+.business_info .input_list .span3.star{width:22px;background:url(../images/info_star.png) center 20px no-repeat;}
+.business_info .input_list .span4{width:260px; text-align:right;}
+
+.business_info .upload_list{text-align:center; margin:20px 0 20px 120px;text-align:left;}
+.business_info .upload_list .upload_box{display:inline-block; width:170px; height:156px; text-align:center; margin-right:50px;margin-top: 20px;}
+.business_info .upload_list .upload_box_del{width:18px;height:18px;background:url(../images/info_del.png) no-repeat;position:absolute;right:-6px;top:-6px; z-index:99;cursor:pointer;}
+.business_info .upload_list .upload_box .upload_img{width:170px; height:120px; line-height:100px; color:#999; background:#FAFAFA; border:1px solid #DFDFDF; position:relative;}
+.business_info .upload_list .upload_box .upload_img img{width:170px; height:120px;}
+.business_info .upload_list .upload_box .upload_txt{background:url(../images/icon_btn.png) repeat-x #FCFCFC;height:26px; width:80px; line-height:26px; margin:10px auto 0 auto; border:1px solid #DFDFDF; cursor:pointer;display: inline-block;}
+.business_info .upload_list .upload_box .upload_txt:hover{background:#fcfcfc; color:#4C8DEE;}
+.business_info .upload_list .upload_box .upload_txt:active{background:#eee;color:#333;}
+
+.business_info .info_button{text-align:center; margin:90px auto;}
+.business_info .info_button span{display:inline-block; width:78px; height:34px; line-height:34px; text-align:center;cursor:pointer;}
+.business_info .info_button span.submit{background:#4C8DEE; border:1px solid #4C8DEE; color:#fff;}
+.business_info .info_button span.submit:hover{background:#77A8F2; border:1px solid #77A8F2;}
+.business_info .info_button span.submit:active{background:#2E79EB; border:1px solid #2E79EB;}
+.business_info .info_button span.cancel{background:url(../images/icon_btn.png) repeat-x #FCFCFC; border:1px solid #DFDFDF; margin-left:20px;}
+.business_info .info_button span.cancel:hover{background:#fcfcfc; color:#4C8DEE;}
+.business_info .info_button span.cancel:active{background:#eee;color:#333;}
+
+/*报错提示框*/
+.business_info .error_alert{position:absolute;top:0;left:0;right:0;bottom:0;1background:#000;z-index:999;}
+.business_info .error_alert .error_content{background:#fff; position:absolute; left:50%; top:50%; margin-left:-160px; margin-top:-90px; border:1px solid #AAA;-webkit-box-shadow:0 0 13px #aaa;-moz-box-shadow: 0 0 13px #aaa;box-shadow: 0 0 13px #aaa;}
+.business_info .error_alert .error_content .error_tit{height:40px; line-height:40px; width:320px; font-weight:bold; text-indent:20px; background:#FAFAFA; border-bottom:1px solid #DFDFDF;}
+.business_info .error_alert .error_content .error_con{margin:50px 0; text-align:center;}
+.business_info .error_alert .error_content .error_close{position:absolute;top:12px;right:20px;background:url(../images/alert_close.png) center no-repeat; width:12px; height:12px;cursor:pointer;}
+/*忘记密码提示框*/
+.business_info .password_alert{position:absolute;top:0;left:0;right:0;bottom:0;1background:#000;z-index:999;}
+.business_info .password_alert .password_content{background:#fff; position:absolute; left:50%; top:50%; margin-left:-280px; margin-top:-90px; border:1px solid #AAA;-webkit-box-shadow:0 0 13px #aaa;-moz-box-shadow: 0 0 13px #aaa;box-shadow: 0 0 13px #aaa;}
+.business_info .password_alert .password_content .password_tit{height:40px; line-height:40px; width:560px; font-weight:bold; text-indent:20px; background:#FAFAFA; border-bottom:1px solid #DFDFDF; margin-bottom:30px;}
+.business_info .password_alert .password_content .error_close{position:absolute;top:12px;right:20px;background:url(../images/alert_close.png) center no-repeat; width:12px; height:12px;cursor:pointer;}
+.business_info .password_alert .password_content .password_con .psw_input{position:relative; margin-bottom:20px;}
+.business_info .password_alert .password_content .password_con .psw_input span{display:inline-block;}
+.business_info .password_alert .password_content .password_con .psw_input span.psw_span1{width:200px; text-align:right;}
+.business_info .password_alert .password_content .password_con .psw_input span.psw_span2{width:240px; text-align:right;}
+.business_info .password_alert .password_content .password_con .psw_input span.psw_span2 input{font-size:14px; width:240px; height:30px; line-height:30px; text-indent:10px; border:1px solid #DFDFDF;}
+.business_info .password_alert .password_content .password_con .psw_input span.psw_span3{width:100px;}
+.business_info .password_alert .password_content .password_con .psw_input .alert_tip{display:block;position:absolute;top:33px;left:200px; color:#FF0000;}
+.business_info .password_alert .button_alert{margin:40px auto; text-align:center;}
+.business_info .password_alert .button_alert span{display:inline-block; height:34px; line-height:34px; width:80px;text-align:center;cursor:pointer;}
+.business_info .password_alert .button_alert span.submit{background:#4C8DEE; border:1px solid #4C8DEE; color:#fff;}
+.business_info .password_alert .button_alert span.submit:hover{background:#77A8F2;border:1px solid #77A8F2;}
+.business_info .password_alert .button_alert span.submit:active{background:#2E79EB;border:1px solid #2E79EB;}
+.business_info .password_alert .button_alert span.cancel{background:url(../images/icon_btn.png) repeat-x #FCFCFC; border:1px solid #DFDFDF; margin-left:20px;}
+.business_info .password_alert .button_alert span.cancel:hover{background:#fcfcfc; color:#4C8DEE;}
+.business_info .password_alert .button_alert span.cancel:active{background:#eee;color:#333;}

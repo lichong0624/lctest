@@ -1,0 +1,335 @@
+@charset "utf-8";
+* html {
+    background: url(about:blank) fixed;
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, input, button, p, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-width: 1000px;
+    font-family: "microsoft yahei", Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #333;
+    text-decoration: none;
+    background: #FFF;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+img {
+    border: none;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    -moz-tap-highlight-color: transparent;
+}
+
+a:hover {
+    color: #0054A6;
+    text-decoration: none;
+}
+
+.on {
+    display: inline
+}
+
+.clear {
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+    font: 0/0 arial;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    visibility: hidden;
+    clear: both;
+    height: 0;
+    font-size: 0;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.header-wrapper {
+    min-width: 1200px;
+    width: 100%;
+    height: 70px;
+    margin: 0 auto;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 1);
+    -pie-background:rgba(255, 255, 255, 1);
+    behavior: url(PIE.htc);
+}
+
+.header_all {
+    width: 1200px;
+    margin: 0 auto;
+    text-align:center;
+}
+
+.header_all .logo {
+    width: 193px;
+    height: 54px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.header_all .tab {
+    height: 70px;
+    width: 744px;
+    font: bold 16px "microsoft yahei";
+    color: #2672BA;
+    margin-left: 100px;
+    display: inline;
+}
+
+.header_all .tab a {
+    line-height: 70px;
+    width: 124px;
+    text-align: center;
+    display: inline-block;
+    *display: inline;
+    color: #282627;
+    position: relative;
+}
+
+.header_all .tab a:hover {
+    color: white;
+    background: rgba(0, 113, 199, 0.7);
+    opacity: 0.7;
+    filter: alpha(opacity:0.7);
+}
+
+.header_all .tab a.cur {
+    color: white;
+    background: rgba(0, 113, 199, 0.8);
+    opacity: 0.8;
+    filter: alpha(opacity:0.8);
+}
+
+.main-wrapper {
+    margin: 0 auto;
+}
+
+
+
+/*banner*/
+/***************start**************/
+.banner {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+.banner-container {
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.banner-container .banner-box {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+.banner-container .banner-box .banner-box-bg {
+    width: 100%;
+    overflow: hidden;
+}
+
+.banner-container .banner-box .label {
+    position: relative;
+    top: -275px;
+    z-index: 2;
+}
+/***************start**************/
+
+.section {
+    padding-top: 20px;
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+    -moz-tap-highlight-color: transparent;
+}
+
+.section-1 {
+    height: 400px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.section-1 .brand {
+    width: 1260px;
+    margin: 0 auto;
+    height: 370px;
+}
+
+.section-1 .brand ul li {
+    float: left;
+}
+
+.section-2 {
+    height: 500px;
+    position: relative;
+}
+
+.section-4 {
+    height: 600px;
+
+}
+
+.section-5 {
+    height: 700px;
+}
+
+.section-6 {
+    height: 800px;
+}
+
+.section-7 {
+    height: 900px;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right{
+    text-align: right;
+}
+
+
+.logo-aa, .logo-ab, .logo-ac, .logo-ag, .logo-ae, .logo-ba, .logo-bb, .logo-bc, .logo-bd, .logo-be {
+    display: block;
+    width: 230px;
+    height: 106px;
+    overflow: hidden;
+    margin: 6px;
+    background-repeat: no-repeat;
+    _background-image: none; /* IE6  */
+}
+
+.logo-aa {
+    background: url("../images/logo/logo_aa.jpg") !important;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/logo/logo_aa.jpg'); /*IE6*/
+}
+
+.logo-ab {
+    background: url("../images/logo/logo_ab.jpg") !important;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/logo/logo_ab.jpg'); /*IE6*/
+}
+
+.logo-ac {
+    background: url("../images/logo/logo_ac.jpg") !important;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/logo/logo_ac.jpg'); /*IE6*/
+}
+
+.logo-ag {
+    background: url("../images/logo/logo_ad.jpg") !important;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/logo/logo_ad.jpg'); /*IE6*/
+}
+
+.logo-ae {
+    background: url("../images/logo/logo_ae.jpg") !important;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/logo/logo_ae.jpg'); /*IE6*/
+}
+
+.logo-ba {
+    background: url("../images/logo/logo_ba.jpg") !important;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/logo/logo_ba.jpg'); /*IE6*/
+}
+
+.logo-bb {
+    background: url("../images/logo/logo_bb.jpg") !important;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/logo/logo_bb.jpg'); /*IE6*/
+}
+
+.logo-bc {
+    background: url("../images/logo/logo_bc.jpg") !important;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/logo/logo_bc.jpg'); /*IE6*/
+}
+
+.logo-bd {
+    background: url("../images/logo/logo_bd.jpg") !important;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/logo/logo_bd.jpg'); /*IE6*/
+}
+
+.logo-be {
+    background: url("../images/logo/logo_be.jpg") !important;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/logo/logo_be.jpg'); /*IE6*/
+}
+
+/**footer**/
+.footer {
+    background-color: rgb(50, 54, 56);
+    width: 100%;
+    overflow: hidden;
+    font-size: 16px;
+    text-align: center;
+    color: #8C8C8C;
+}
+
+.footer-container {
+    padding: 64px 0;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.footer-container p {
+    text-align: left;
+    padding-left: 36px;
+}
+
+.footer-nav {
+    text-align: left;
+    color:white;
+}
+
+.footer-nav span {
+    margin: 0 37px;
+}
+
+.footer a {
+    color: white;
+}
+
+.copyright {
+    width:100%;
+    background-color: rgb(24, 26, 27);
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.copyright span {
+    display: inline-block;
+    *display: inline;
+    height: 24px;
+}
+
+.beian {
+    padding-left: 26px;
+    background: url("../images/beian.png") no-repeat;
+}

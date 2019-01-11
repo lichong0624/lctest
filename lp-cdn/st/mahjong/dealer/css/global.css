@@ -1,0 +1,299 @@
+body, html{
+    height:100%;
+    -webkit-tap-highlight-color:transparent;
+    padding-bottom:constant(safe-area-inset-bottom);
+    padding-bottom:env(safe-area-inset-bottom);
+}
+body{
+    font-family:-apple-system-font, Helvetica Neue, Helvetica, sans-serif, PingFang-SC-Regular;
+    font-size:13px;
+    background-color:#F8F8F8;
+}
+
+.content{
+    width:100%;
+    padding-bottom:55px;
+}
+.content .line{
+    color:#34384B;
+    font-weight:bold;
+}
+.content .list-title{
+    color:#34384B;
+    font-weight:bold;
+    font-size:18px;
+}
+.content .weui-cells .list-weui-cell:before{
+    content:normal;
+    border-top:0;
+}
+.content .weui-cells .list-weui-cell{
+    padding:3px;
+    margin-left:10px;
+    color:#34384B;
+    font-size:15px;
+}
+.content button{
+    line-height:45px;
+    width:100%;
+}
+.content .btn-orange{
+    background-color:#FFC741;
+    color:#34384B;
+}
+.content .add-second-dealer-tips{
+    color:#F33A3E;
+}
+.content .add-dealer-form .weui-cell{
+    font-size:16px;
+    color:#34384B;
+}
+.content .required, .content .valid-error{
+    color:#F33A3E;
+}
+.content .content-padded{
+    margin:15px;
+}
+.weui-btn_mini{
+    padding:0 0.32em;
+    line-height:1.8;
+    font-size:12px;
+}
+/*header*/
+.header-bar{
+    height:135px;
+    background:url("../images/header_bg.jpg") repeat-x;
+    color:#FFF;
+}
+.header-bar .userinfo{
+    float:left;
+    margin-top:25px;
+    margin-left:15px;
+    width:65%;
+}
+.header-bar .userinfo h4{
+    font-style:normal;
+    color:#AFB2BB;
+}
+.header-bar .userinfo p{
+    font-size:25px;
+}
+.header-bar .rel-num{
+    height:36px;
+    line-height:36px;
+}
+.header-bar .dealer-num{
+    float:right;
+    margin-left:15px;
+}
+.header-bar .user-avatar{
+    float:right;
+    height:130px;
+    width:30%;
+    text-align:center;
+}
+.header-bar .user-avatar img{
+    width:60px;
+    height:60px;
+    margin-top:24px;
+    border-radius:32px;
+}
+.header-bar .user-avatar p{
+    font-size:13px;
+    text-align:center;
+    height:26px;
+    line-height:26px;
+}
+/* footer */
+.footer-bar{
+    position:fixed;
+    width:100%;
+    height:53px;
+    bottom:0;
+    z-index:100;
+    background-color:#FFF;
+}
+@media only screen and (device-width: 375px) and (device-height: 812px) and
+(-webkit-device-pixel-ratio: 3) {
+    /*iphoneX导航操作栏上移*/
+    .footer-bar {
+        padding-bottom: 34px;
+    }
+}
+.footer-bar .weui-bar__item--on .weui-tabbar__icon > i, i.weui-tabbar__icon{
+    color:#34384B;
+}
+.footer-bar .weui-bar__item--on .weui-tabbar__label{
+    color:#34384B;
+}
+.footer-bar .weui-tabbar__icon > i, i.weui-tabbar__icon{
+    font-size:28px;
+    color:#8B909E;
+}
+.footer-bar .weui-tabbar__icon{
+    line-height:28px;
+}
+.weui-btn_mini{
+    padding:0 0.32em;
+    line-height:1.8;
+    font-size:12px;
+}
+.weui-btn_default{color:#666 !important;}
+.page-register .page__hd, .page-login .page__hd, .page-forget-password .page__hd h2{
+    text-align:center;
+}
+.weui-btn_default{color:#34384B !important;}
+/* 登录 */
+.page-login .page__hd{
+    padding:30px;
+}
+.page-login .weui-btn-area .weui-btn_primary, .page-forget-password .weui-btn-area .weui-btn_primary,
+.page-register .weui-btn-area .weui-btn_primary{
+    background-color:#FFC741;
+    color:#34384B;
+}
+.page-login .content .remember-password{
+    float:left;
+}
+.page-login .content .forget-password{
+    float:right;
+}
+.page-login .content .clear-both{
+    clear:both;
+}
+/*注册*/
+.page-register .content .agreement a{
+    color:#34384B;
+}
+.page-register .content .weui-cells__title{
+    color:red;
+}
+.page-register .content .agreement .weui-agree{
+    display:inline;
+    padding-right:0px;
+}
+.page-register .content .agreement .weui-agree__text{
+    font-size:13px;
+}
+/*忘记密码*/
+.page-forget-password .page__hd{
+    padding:30px;
+}
+.page-forget-password .dosubmit{
+    display:none;
+}
+/*功能管理*/
+.page-home .weui-grid{
+    background-color:#FFF;
+}
+.page-home .weui-grid .weui-grid__icon{
+    line-height:1;
+}
+.page-home .weui-grid .weui-grid__icon .xw-icon{
+    color:#34384B;
+    font-size:30px;
+}
+.page-home .content{
+    padding:0;
+    margin:0;
+}
+/*搜索*/
+.content .weui-table-search{
+    height:27px;
+    line-height:1;
+    margin:6px;
+}
+.content .weui-table-search input{
+    border:1px solid #C8CBD5;
+    border-radius:4px;
+    padding:3px;
+    background-color:#FFF;
+}
+.content .weui-table-search .btn-orange{
+    background-color:#FFC741;
+    line-height:27px;
+    width:60px;
+}
+.balance-list .weui-table-search input, .page-data-stats .weui-table-search input{
+    border:1px solid #C8CBD5;
+    border-radius:4px;
+    padding:3px;
+    width:80px;
+}
+/*购买钻石*/
+.page-recharge .content{
+    padding:0;
+}
+.page-recharge .goods-box{
+    text-align:center;
+    padding:10px;
+    border-bottom:1px solid #C8CBD5;
+}
+.page-recharge .goods-box .goods-item{
+    display:inline-block;
+    width:30%;
+    height:90px;
+    border:2px solid #C8CBD5;
+    text-align:center;
+    color:#34384B;
+    border-radius:5px;
+}
+.page-recharge .goods-box .goods-item:hover{
+    color:#F33A3E;
+    border:2px solid #F33A3E;
+}
+.page-recharge .goods-box .checked{
+    color:#F33A3E;
+    border:2px solid #F33A3E;
+}
+.page-recharge .goods-item .goods-price{
+    height:40px;
+    line-height:40px;
+    font-size:17px;
+}
+.page-recharge .recharge-box{
+    margin:10px;
+    font-size:13px;
+}
+.page-recharge .recharge-box p{
+    color:#585D74;
+}
+.page-recharge .recharge-box i{
+    color:#585D74;
+    font-style:normal;
+}
+.page-recharge .recharge-box .amount, .page-recharge .recharge-box .total-amount{
+    font-size:18px;
+    color:#34384B;
+    font-weight:600;
+}
+.page-recharge .btn-group{
+    padding:15px;
+}
+.content .dealer-info{
+    font-size:16px;
+}
+/*邀请玩家*/
+.page-invite-player .dealer-content{
+    margin:10px 16px;
+}
+.page-invite-player .dealer-desc{
+    font-size:16px;
+}
+.page-invite-player .dealer-id{
+    font-size:19px;
+    color:#34384B;
+}
+.page-invite-player .dealer-method{
+    margin-top:10px;
+    font-size:17px;
+    color:#34384B;
+}
+.page-invite-player .qr-content{
+    margin:20px 0;
+    text-align:center;
+}
+.page-invite-player #qr-img{
+    width:200px;
+    height:200px;
+}

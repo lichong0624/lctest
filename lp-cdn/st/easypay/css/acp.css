@@ -1,0 +1,150 @@
+@CHARSET "utf-8";
+
+.acp-tips {
+	color: red;
+	font-size: 14px;
+	clear: both;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+
+  src: url('./fonts/glyphicons-halflings-regular.eot');
+  src: url('./fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('./fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('./fonts/glyphicons-halflings-regular.woff') format('woff'), url('./fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('./fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+}
+
+.bs-glyphicons .glyphicon {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.glyphicon-triangle-right:before {
+  content: "\e250";
+}
+.glyphicon-triangle-left:before {
+  content: "\e251";
+}
+.glyphicon-triangle-bottom:before {
+  color: #4C8DEE;
+  content: "\e252";
+}
+.glyphicon-triangle-top:before {
+  content: "\e253";
+  color: #4C8DEE;
+}
+
+
+#advancedSearchTogglePannel {
+  text-align: center;
+}
+
+#advancedSearchTogglePannel p {
+  display: inline-block;
+  background-color: #E0ECFF;
+  width: 140px;
+  cursor: pointer;
+}
+
+#advancedSearchTogglePannel .glyphicon {
+  margin-right: 5px;
+}
+
+#merchatinvoicelistSearch .time_box,
+#merchatinvoiceBilllistSearch .time_box {
+  margin-right: 6px;
+}
+#merchatinvoicelistSearch .time_box input,
+#merchatinvoiceBilllistSearch .time_box input {
+  width: 138px;padding-left:10px;background: url(../images/icon_time.png) right top no-repeat #fff;cursor: pointer;
+}
+#merchatinvoicelistSearch .time_box input:hover,
+#merchatinvoiceBilllistSearch .time_box input:hover {
+  background: url(../images/icon_time_hover.png) right top no-repeat #fff;
+}
+#merchatinvoicelistSearch .time_box input:active,
+#merchatinvoiceBilllistSearch .time_box input:active {
+  background: url(../images/icon_time_on.png) right top no-repeat #fff;
+}
+
+#jq_edit_form_merchantinvoiceedit .image-upload-preview-container .imgContainer {
+  width: 240px;
+  height: 140px;
+  margin-left: 4px;
+}
+
+#merchatinvoicelistSearch_region_center .datagrid-body td,
+#merchatinvoiceBilllistSearch_region_center .datagrid-body td {
+  border: 1px solid #eee !important;
+}
+
+#merchatinvoicelistSearch_region_center .datagrid-btable,
+#merchatinvoiceBilllistSearch_region_center .datagrid-btable {
+  border-collapse: collapse !important;
+}
+
+#merchatinvoicelistSearch_region_center .datagrid-header-row,
+#merchatinvoiceBilllistSearch_region_center .datagrid-header-row {
+  background: #f0f0f0;
+  height: 38px;
+}
+
+#alipayShopListSearch_dialogdiv {
+  
+}
+
+.alipayShopListSearch_dialogtable {
+  width: 350px;
+}
+
+.alipayShopListSearch_dialogtable tr {
+  height: 50px;
+}
+
+.alipayShopListSearch_dialogtable tr input {
+  width: 200px;
+  height: 25px;
+}
+
+.quick-form-container .block-group input[type="text"] {
+  border: 1px solid #dfdfdf;
+  width: 150px;
+  padding: 0 0 0 5px;
+  height: 30px;
+  box-sizing: border-box;
+}
+
+.quick-form-container .block-group .left-block > p,
+.quick-form-container .block-group .right-block > p {
+  height: 30px;
+  line-height: 30px;
+}
+
+.quick-form-container .block-group .left-block input[type="checkbox"] {
+  margin: 0;
+  padding: 0;
+  width: 15px;
+  height: 18px;
+  display: inline-block;
+  vertical-align: text-bottom;
+}
+
+.quick-form-container .block-group .right-block p span { 
+  line-height: 30px;
+  margin-right: 5px;
+}

@@ -1,0 +1,12 @@
+.pageBar-content{
+    position:relative;
+    bottom:0;
+    z-index:102;
+    padding:6px;
+    line-height:16px;
+    vertical-align:middle;
+}
+.data-page-pageBar span, .data-page-pageBar a{ display:inline-block; border:1px solid #D4DFE3; color:#2283C5; background:#FAFAFA; margin:0 -1px 0 0; position:relative; padding:4px 8px; }
+.data-page-pageBar span{ background:#6FAED9; color:#FFF; border-color:#6FAED9; }
+.data-page-pageBar a:hover{ background:#EAEFF2; }
+.data-page-info em{ line-height:30px; color:#2283C5; font-style:normal; }

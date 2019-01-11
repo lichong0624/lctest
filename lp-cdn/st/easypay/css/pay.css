@@ -1,0 +1,680 @@
+
+.theme-color {
+    color: #2672BA;
+}
+
+.theme-hover-style {
+}
+
+.theme-hover-style:hover {
+    box-shadow: 20px 20px 50px 0px rgba(215, 215, 215, 0.8);
+    -webkit-box-shadow: 20px 20px 50px 0px rgba(215, 215, 215, 0.8);
+    -moz-box-shadow: 20px 20px 50px 0px rgba(215, 215, 215, 0.8);
+    behavior: url(PIE.htc); /*IE边框阴影*/
+    z-index: 1;
+    transform: scale(1.1);
+}
+
+.theme-shadow-style {
+    box-shadow: 10px 10px 15px 0px rgba(215, 215, 215);
+    -webkit-box-shadow: 10px 15px 33px 5px rgba(215, 215, 215, 0.5);
+    -moz-box-shadow: 10px 10px 15px 5px rgba(215, 215, 215, 0.5);
+    behavior: url(PIE.htc); /*IE边框阴影*/
+    z-index: 1;
+}
+
+.text-size-20 {
+    font-size: 20px;
+}
+
+.section-name {
+    height: 100px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.section-name h2 {
+    display: block;
+}
+
+.section-name span {
+    color: rgb(173, 182, 193);
+}
+
+.section-name .line {
+    display: inline-block;
+    *display: inline;
+    background-color: rgb(203, 203, 203);
+    height: 1px;
+    width: 150px;
+    margin-bottom: 8px;
+}
+
+.mark {
+    background: rgba(51, 51, 51, 0.7);
+    opacity: 0.7;
+    filter: alpha(opacity:70);
+}
+
+.header_all .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    width: 30px;
+    border-radius: 50px;
+    line-height: 18px;
+}
+
+.header_all .btn-register {
+    border: rgba(65, 165, 252, 0.8) 1px solid;
+    opacity: 0.8;
+    filter: alpha(opacity:80);
+    color: rgba(65, 165, 252, 0.8);
+}
+
+.header_all .btn-login {
+    color: #fff;
+    background: rgba(60, 177, 255, 0.8);
+    margin-left: 10px;
+}
+
+.header_all .btn-login:hover {
+    border: rgba(60, 177, 255, 0.8) 1px solid;
+    opacity: 0.8;
+    filter: alpha(opacity:80);
+    color: rgb(65, 165, 252);
+    background-color: white;
+}
+
+
+
+.home{
+
+}
+
+.home  .banner-size {
+    height: 510px;
+}
+.home  .mark{
+    position:relative;
+    margin-top:-618px;
+}
+
+
+.advantage-list {
+    text-align: center;
+    width: 1230px;
+    height: 100%;
+    margin: auto;
+}
+
+.advantage-list .item {
+    float: left;
+    width: 280px;
+    height: 380px;
+    background: rgb(246, 246, 249);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    margin-left: 13px;
+    margin-right: 13px;
+}
+
+.advantage-list .item .label {
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    margin-top: 60px;
+}
+
+.advantage-list .item .label-icon {
+    position: relative;
+    margin: auto;
+    margin-top: 27px;
+}
+
+.advantage-list .item .desc {
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-top: 45px;
+    text-align: left;
+    font-size: 15px;
+    line-height: 24px;
+    color: rgb(153, 153, 153);
+}
+
+.service {
+
+}
+
+.service .item {
+    position: relative;
+    height: 192px;
+}
+
+.service .service-icon {
+    width: 284px;
+    height: 192px;
+    overflow: hidden;
+    display: inline;
+    position: relative;
+}
+
+.service .service-decs {
+    width: 320px;
+    display: inline-block;
+    *display: inline;
+    position: relative;
+    top: 20px;
+}
+
+.pay . pay-icon {
+    float: left;
+}
+
+.pay .pay-decs {
+    left: 120px;
+}
+
+.manager .manager-desc {
+
+}
+
+.manager .manager-icon {
+    left: 90px;
+}
+
+.service .manager {
+    position: relative;
+    margin-top: 70px;
+}
+
+.service .service-decs h2 {
+    font-size: 32px;
+}
+
+.service .service-decs p {
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+    margin-top: 24px;
+}
+
+.service .service-decs p, .service .service-decs h2 {
+    text-align: left;
+}
+
+.service .service-decs button {
+    width: 94px;
+    height: 34px;
+    margin-top: 28px;
+    color: white;
+    background-color: rgba(0, 133, 199, 0.8);
+    opacity: 0.8;
+    filter: alpha(opacity:80);
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    behavior: url(PIE.htc);
+    float: left;
+}
+
+/*服务*/
+
+.aggregate-list {
+    text-align: center;
+    width: 1230px;
+    margin: auto;
+}
+
+.aggregate-list h2 {
+    margin-top: 84px;
+    margin-right: 132px;
+    float: right;
+    text-align: right;
+    font-size: 42px;
+    color: rgb(102, 102, 102);
+}
+
+.aggregate-list .label-des {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.aggregate-list .label-des .line {
+    position: relative;
+    float: right;
+    background-color: rgb(203, 203, 203);
+    height: 1px;
+    width: 372px;
+    margin-right: 132px;
+    margin-top: 25px;
+}
+
+.label-des p {
+    margin-top: 38px;
+    font-size: 16px;
+    width: 370px;
+    text-align: right;
+    float: right;
+    margin-right: 132px;
+    color: rgb(153, 153, 153);
+}
+
+.label-list {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+.label-list .item {
+    width: 190px;
+    height: 142px;
+    background-color: rgb(246, 246, 249);
+    display: inline-block;
+    margin: 3px;
+}
+
+.label-list .item .label-icon {
+    position: relative;
+    margin: auto;
+    margin-top: 32px;
+}
+
+.label-list .item .label-title {
+    margin-top: 12px;
+    color: rgb(51, 51, 51);
+}
+
+.services .slogan {
+    position: relative;
+    font-size: 58px;
+    top: -440px;
+    z-index: 2;
+}
+
+.services .mark{
+    top: -270px;
+}
+
+.services .banner-size {
+    height: 266px;
+    clip: rect(0px, 60px, 200px, 0px);
+}
+
+.merchant .item {
+    height: 320px;
+}
+
+.merchant .item .sub-item {
+    width: 512px;
+    height: 300px;
+    display: inline-block
+}
+
+.merchant h2 {
+    position: relative;
+    width: 200px;
+    height: 100px;
+}
+
+.merchant .agent-icon {
+    width: 512px;
+    height: 300px;
+    overflow: hidden;
+    display: block;
+    position: relative;
+}
+
+.merchant .circle {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    margin-top: -226px;
+}
+
+.merchant .title {
+    position: relative;
+    font-size: 32px;
+    color: white;
+    display: block;
+    margin-top: -100px;
+}
+
+.sub-item .item-label {
+    width: 100%;
+    height: 33%;
+    display: block;
+}
+
+.sub-item .ver-line {
+    background-color: #00c4ff;
+    width: 3px;
+    height: 50px;
+}
+
+.sub-item .label {
+    font-size: 20px;
+    display: inline-block
+
+}
+
+/*合作伙伴*/
+
+.partner {
+    background-color: rgb(243, 244, 249);
+}
+
+.partner .banner-size {
+    height: 266px;
+}
+
+.partner .mark {
+    margin-top: -413px;
+}
+
+.partner .banner-box .label {
+    position: relative;
+    top: -200px;
+    z-index: 2;
+}
+
+.partner .slogan {
+    position: relative;
+    font-size: 58px;
+    top: -170px;
+    z-index: 2;
+}
+
+.aboutus {
+
+}
+
+.aboutus  .banner-size {
+    height: 266px;
+}
+
+.aboutus  .mark {
+    margin-top: -266px;
+}
+
+.aboutus .pic {
+    width: 380px;
+    height: 380px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.aboutus .company-info {
+    margin-top: 20px;
+    text-align: left;
+    color: rgb(125, 125, 125);
+    font-size: 15px;
+
+}
+
+.aboutus .company-info p {
+    line-height: 30px;
+    margin-left: 60px;
+}
+
+.aboutus .aboutus-item {
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    *display: inline;
+}
+
+.aboutus .slogan-title {
+    font-size: 21px;
+    line-height: 76px;
+    color: rgb(102, 102, 102);
+}
+
+.aboutus .slogan-content {
+    font-size: 15px;
+    color: rgb(153, 153, 153);
+}
+
+/*****online start*****/
+.online {
+    background-color: #FAFAFA;
+}
+
+.online .grid {
+    margin-top: 100px;
+}
+
+.online .grid-item {
+    width: 33%;
+    display: inline-block;
+    *display: inline;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 10px 10px 33px 5px rgba(215, 215, 215, 0.5);
+    -webkit-box-shadow: 10px 10px 33px 5px rgba(215, 215, 215, 0.5);
+    -moz-box-shadow: 10px 10px 33px 5px rgba(215, 215, 215, 0.5);
+}
+
+.online .grid-item-size {
+    width: 500px;
+    height: 260px;
+}
+
+.online .grid-item-style {
+    background-color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    behavior: url(PIE.htc);
+}
+
+.online .btn-experience {
+    display: block;
+    color: rgba(65, 165, 252);
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.online .btn-experience:hover {
+    text-decoration: underline;
+}
+
+.online .text-style {
+    font-size: 16px;
+    color: rgb(146, 146, 146);
+    margin: 10px;
+}
+
+.online .title {
+    margin-top: 70px;
+}
+
+.online .title-style {
+    color: rgb(21, 175, 233);
+    font-size: 26px;
+}
+
+.online .question-label {
+    font-size: 20px;
+    color: rgb(146, 146, 146);
+    display: inline-block;
+    *display: inline;
+    margin-top: 100px;
+}
+
+.online .btn-size {
+    width: 200px;
+    height: 40px;
+}
+
+.online .question-btn-style {
+    background-color: rgb(0, 113, 199);
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    behavior: url(PIE.htc);
+    color: white;
+    font-size: 16px;
+}
+
+/*****online end*****/
+
+/*****help start*****/
+
+.help {
+    background-color: #FAFAFA;
+}
+
+.help-attention {
+    width: 1200px;
+    height: 300px;
+    background-color: rgba(0, 113, 199, 0.8);
+    opacity: 0.8;
+    filter: alpha(opacity:80);
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+
+    box-shadow: rgb(188, 220, 247) 0 0 100px;
+    -webkit-box-shadow: rgb(188, 220, 247) 0 0 100px;
+    -moz-box-shadow: rgb(188, 220, 247) 0 0 100px;
+
+    behavior: url(PIE.htc); /*IE边框阴影*/
+    z-index: 1;
+}
+
+.help-attention .attention-label-01 {
+    font-size: 30px;
+    margin-left: 80px;
+    padding-top: 50px;
+    display: block;
+}
+
+.help-attention .attention-label-02 {
+    font-size: 18px;
+    margin-left: 80px;
+    margin-top: 20px;
+    color: white;
+    display: block;
+}
+
+.help .card {
+    display: inline-block;
+    *display: inline;
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    behavior: url(PIE.htc); /*IE边框阴影*/
+    margin: 20px;
+}
+
+.help .normal {
+    cursor: pointer;
+}
+
+.help .tech {
+}
+
+.help .card .label-01 {
+    margin-top: 30px;
+    font-size: 24px;
+}
+
+.help .card .label-02 {
+    margin-top: 30px;
+    color: rgb(51, 51, 51);
+}
+
+/*****help end*****/
+
+/*****footer start*****/
+
+.footer .link-info {
+    padding-left: 36px;
+}
+
+.link-info {
+    margin-top: 20px;
+}
+
+.link-info p {
+    color: rgb(232, 232, 232);
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.link-info .tel {
+    background: url("../images/tel.png") no-repeat;
+}
+
+.link-info .email {
+    background: url("../images/email.png") no-repeat;
+}
+
+.link-info .address {
+    background: url("../images/address.png") no-repeat;
+}
+
+/*****footer end*****/
+
+/*****dialog start*****/
+.dialog-container {
+    margin: auto 0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(243,244,249);
+}
+
+.dialog-btn {
+    position: relative;
+    padding: 10px 50px;
+    width: 300px;
+    text-align: center;
+    text-decoration: none;
+    top: 100px;
+    margin: 30px;
+}
+
+.dialog-btn-style {
+    border-radius: 30px;
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 16px;
+}
+
+.dialog-item {
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+}
+
+.dialog-item p {
+    position: relative;
+    margin-top: 25%;
+    font-size: 30px;
+    color: #2672BA;
+}
+
+.dialog-item a{
+    color: rgba(60, 177, 255, 0.8)
+}
+
+/*****dialog end*****/

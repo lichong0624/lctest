@@ -1,0 +1,29 @@
+@CHARSET "UTF-8";
+
+.login form .send {
+    margin-top: 15px;
+}
+.login form div input {
+    border: none !important;
+}
+
+#jq_user_pwd_update_form {
+    margin-top: 70px;
+}
+
+#jq_pwd_update_div .item_tab {
+    margin-left: 20px;
+}
+
+.btn_prev,
+.btn_next {
+    display: none !important;
+}
+
+.update_head {
+    font-size: 16px;
+    font-weight: bold;
+    color: #4C8DEE;
+    margin-top: 15px;
+    height: 20px;
+}

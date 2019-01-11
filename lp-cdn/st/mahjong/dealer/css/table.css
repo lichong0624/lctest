@@ -1,0 +1,45 @@
+/** 表格 **/
+.table{
+    border-bottom:1px solid #C8CBD5;
+    border-radius:6px;
+    border-spacing:0;
+    color:#444;
+    width:96%;
+    margin:2%;
+}
+.table tr:hover{
+    background-color:#FBF8E9;
+    transition:all 0.1s ease-in-out;
+}
+.table th, .table td{
+    border-left:1px solid #C8CBD5;
+    border-top:1px solid #C8CBD5;
+    padding:5px;
+    text-align:center;
+}
+.table th{
+    background-color:#34384B;
+    border-top:none;
+    color:#FFF;
+}
+.table td:last-child{
+    border-right:1px solid #C8CBD5;
+}
+.table tr:first-child td{
+    border-top:none;
+}
+.table th:first-child{
+    border-left:none;
+}
+.table th:first-child{
+    border-radius:6px 0 0 0;
+}
+.table th:last-child{
+    border-radius:0 6px 0 0;
+}
+.table tr:last-child td:first-child{
+    border-radius:0 0 0 6px;
+}
+.table tr:last-child td:last-child{
+    border-radius:0 0 6px 0;
+}

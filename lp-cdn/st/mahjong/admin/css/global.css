@@ -1,0 +1,22 @@
+/*推广区域绑定*/
+.promo-info{
+    width:770px !important;
+    height:450px !important;
+}
+.promo-info .layui-layer-content{
+    font-size:18px !important;
+}
+.promo-info .promo-desc{
+    margin:10px 23px;
+    color:#009688;
+    display:block;
+}
+.promo-info #promo-link{
+    display:block;
+    margin:0 55px;
+    font-size:16px;
+    word-break:break-all
+}
+.promo-info .qr-content{
+    text-align:center;
+}

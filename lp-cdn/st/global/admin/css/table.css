@@ -1,0 +1,26 @@
+.table-con .qf-table{
+    margin:0;
+    padding:0;
+}
+.table-con th, .table-con td{
+    border:1px solid #E2E2E2;
+}
+.layui-table{
+    margin:0 auto;
+}
+.table-con .fixed{
+    background-color:#F3F3F3;
+}
+.headerFrozen.table-con{
+    max-height:400px;
+    overflow:auto;
+}
+.headerFrozen.table-con .qf-table th, .qf-table td{
+    position:static;
+}
+#layer-cols-ctl{
+    padding:8px;
+}
+#layer-cols-ctl ul li{
+    line-height:18px;
+}

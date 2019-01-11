@@ -1,0 +1,10 @@
+.layui-tab-title{
+    border-bottom:1px solid #1AA094;
+}
+.larry-tab-box>.layui-tab-title .layui-this {
+    color: white;
+    background-color: #1AA094;
+}
+.larry-tab-box > .layui-tab-title em{
+    font-style:normal !important;
+}

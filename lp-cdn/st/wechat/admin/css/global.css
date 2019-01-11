@@ -1,0 +1,29 @@
+@import "../theme/green.css";
+.layui-card .stats .icon{
+    font-size:21px;
+}
+.layui-card .stats .schedule-body{
+    height:100px;
+    background-color:#F1F1F1;
+}
+.layui-card .stats h3{
+    color:#38B03F;
+}
+.layui-card .stats p{
+    padding-top:10px;
+}
+.layui-card .stats p cite{
+    font-style:normal;
+    font-size:30px;
+    font-weight:300;
+    color:#38B03F;
+}
+.layui-card .stats .down h3,
+.layui-card .stats .down p cite {
+    color:#EA644A!important;
+}
+
+.layui-card .stats .percentage{
+    float:right;
+    top:-20px;
+}

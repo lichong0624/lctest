@@ -1,0 +1,48 @@
+.none{display:none;}
+.wrap_num_1{border:1px solid #F0F0F0;margin:20px 0;}
+.table_num_pad2{padding:0 20px;}
+.wid150{width:150px !important;}
+.wrap_num_1 .im_row{padding-bottom:20px;}
+button{cursor:pointer;}
+.h1_title_01{font-size:14px;height:52px;line-height:52px;margin:0 20px;border-bottom:1px solid #F0F0F0;}
+.table_num_01{width:100%;margin:25px 0;}
+.table_num_01 tr:nth-child(1) td{
+	border-bottom: 1px solid #F0F0F0;
+}
+.table_num_01 td{border-right:1px solid #F0F0F0; width: 20%;}
+.table_num_01 td:last-child{border-right:0;}
+.icon_qf{margin-left:20px;display:inline-block;vertical-align:middle;width:30px;height:31px;background:url(../images/sprite_qf.png) no-repeat ;}
+
+.icon_qf_01{background-position:0 -41px;}
+.icon_qf_02{background-position:0 0;}
+.icon_qf_03{background-position:0 -82px;}
+.icon_qf_04{background-position:0 -123px;}
+.icon_qf_05{background-position:0 -164px;}
+.table_txt_01{display:inline-block;vertical-align:middle;margin-left:10px;}
+.table_num_p2{margin-top:40px;text-align:center;word-break: break-all;}
+.table_num_01 tr:nth-child(1) td .table_num_p2 {
+	 margin-bottom: 17px;
+}
+.table_num_p2>span{font-size:24px;margin-right:7px;}
+.table_txt_02{float:right;height:31px;line-height:31px;}
+.table_num_p1{padding-right:30px;}
+
+.table_num_01 tr:nth-child(2) td .table_num_p1 {
+	margin-top: 17px;
+}
+
+.tables_wrap{margin-top:20px;}
+.tables_50{display:inline-block;width:49.5%;border:1px solid #F0F0F0;}
+.align_rgt{float:right;}
+.tables_50>h1{font-size:14px;height:50px;line-height:50px;padding-left:20px;color:#333333;}
+.table_num_02{width:100%;border-collapse: collapse;}
+.table_num_02 th{text-align: center;background:#EEEEEE;height:40px;font-weight:normal;border-top:1px solid #E0E0E0;border-bottom:1px solid #E0E0E0;}
+.table_num_02 td{text-align:center;border-bottom:1px solid #F0F0F0;word-break: break-all;}
+.table_num_02 tbody tr:last-child td{border-bottom:0;}
+.table_num_02 tbody tr span{display:block;height:40px;}
+.table_num_02 tbody tr span.cell_bg{background:url(../images/cell_bg_2.png) no-repeat;}
+
+.table_num_02 tbody tr:nth-child(odd) span{margin:10px 0;}
+.table_num_02 tbody tr:nth-child(even){background:#FCFCFC;}
+.table_num_02 tbody tr:nth-child(even) span.cell_bg{background:url(../images/cell_bg_1.png) no-repeat;}
+

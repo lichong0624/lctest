@@ -1,0 +1,171 @@
+@charset "utf-8";
+.datagrid .panel-body {overflow: hidden; position: relative; border-color: #eee;}
+.panel-header .panel-body { border: 0px; }
+.panel-header {border-color: #eee; background: linear-gradient(to bottom, #f4f4f4 0px, #f4f4f4 100%) repeat-x scroll 0 0 rgba(0, 0, 0, 0);}
+.index-panel-header {
+	padding: 12px 5px;
+    position: relative;
+    border-color: #eee;
+    background: #fafafa none repeat scroll 0 0;
+}
+.left-panel-header {
+	padding: 12px 5px 10px 0px;
+    position: relative;
+    border-color: #eee;
+    background: #ffffff none repeat scroll 0 0;
+}
+.grid-title-panel-header {
+	border: 1px solid #eee;
+	padding: 12px 5px 10px 0px;
+    position: relative;
+    border-color: #eee;
+    background: #ffffff none repeat scroll 0 0;
+}
+.layout-split-east {
+    border-left: 5px solid #fafafa;
+}
+.datagrid-header td, .datagrid-body td, .datagrid-footer td {
+    border-style: none;
+    border-bottom-style: dotted;
+    border-width: 0 1px 1px 0;
+    margin: 0;
+    padding: 0;
+}
+.datagrid-header-row, .datagrid-row {
+    height: 40px;
+}
+.panel-body {border-color: #eee;}
+.tabs-header, .tabs-tool {
+    background: #fafafa none repeat scroll 0 0;
+}
+.panel-title {
+    font-size: 14px;
+    font-weight: bold;
+    height: 16px;
+    line-height: 16px;
+    padding-left: 10px;
+}
+.layout-expand {
+    background-color: #fafafa;
+}
+.layout-expand-over {
+    background-color: #fafafa;
+}
+.tabs li a.tabs-inner {
+    width: 120px;
+}
+.tabs-scroller-left, .tabs-scroller-right {
+    border-width: 1px;
+    border-bottom: 0px;
+}
+.textbox {
+    background-color: #fff;
+    border: 1px solid #dfdfdf;
+    width:200px;
+    border-radius: 0px;
+    display: inline-block;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.textbox .textbox-text {
+    border: 0 none;
+    border-radius: 0px;
+    font-size: 12px;
+    margin: 0;
+    outline-style: none;
+    padding: 4px;
+    resize: none;
+    vertical-align: top;
+    white-space: normal;
+}
+.l-btn-large .l-btn-text {
+    line-height: 35px;
+}
+.tabs-header, .tabs-scroller-left, .tabs-scroller-right, .tabs-tool, .tabs, .tabs-panels, .tabs li a.tabs-inner, .tabs li.tabs-selected a.tabs-inner, .tabs-header-bottom .tabs li.tabs-selected a.tabs-inner, .tabs-header-left .tabs li.tabs-selected a.tabs-inner, .tabs-header-right .tabs li.tabs-selected a.tabs-inner {
+    border-color: #eee;
+}
+.tabs li a.tabs-inner {
+    border-radius: 0;
+    border-style: solid;
+    border: 0 0 1px 0;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    margin: 0;
+    padding: 0 10px;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.tabs-header .tabs-pill li.tabs-selected a.tabs-inner {
+    background: #eee none repeat scroll 0 0;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 3px solid #4c8dee;
+    color: #000000;
+    filter: none;
+}
+.tabs-header .tabs-pill li a.tabs-inner {
+    border-radius: 0px;
+}
+.datagrid-toolbar, .datagrid-pager {
+    background: #ffffff none repeat scroll 0 0;
+}
+
+
+.right_top{margin:0px 0px 0px 0px; padding:20px 0px 0px 30px;}
+.right_top li{ clear:both; padding:0 0 0 10px; margin-bottom:5px;}
+.right_top li span{ line-height:25px;}
+.right_top li span.even{ margin-left: 20px}
+.right_top li span img{ vertical-align:middle; margin:0 6px 0 4px;}
+.right_top li span a{text-decoration:none}
+.right_top td{ padding:2px 3px;}
+.right_top td img{ vertical-align:middle; margin:0 6px 0 4px;}
+
+#.validform{margin:10px 0px 0px 20px;}
+.validform .need{
+	width:10px;
+	color:#b20202;
+}
+.validform td{
+	padding:5px 0;
+	text-align:left;
+}
+.validform .inputxt,.validform textarea{
+    border: 1px solid #dfdfdf;
+    border-radius: 0px;
+	width:196px;
+	padding:0 0 0 5px;
+	height: 30px;
+}
+.validform textarea{
+	font-size: 12px;
+	padding:5px;
+	height:75px;
+}
+.validform label{
+	margin:0 15px 0 4px;
+}
+.validform .tip{
+	line-height:20px;
+	color:#5f6a72;
+}
+.validform select{
+	width:202px;
+}
+.validformalter select{
+	width:124px;
+}
+
+.myButtonDisabled {
+	color: gray;
+	
+}
+.empty_tip_wrap{padding:40px;position:absolute;left:0;right:0;bottom:0;background:#ffffff;z-index:9;}
+.empty_tip_wrap .empty_tip_img{height:116px;background:url(../images/private/ico_fail.png) center no-repeat;}
+.empty_tip_wrap .empty_tip_txt{text-align:center;color:#d3d3d3;margin-top:20px;font-size:15px;}
